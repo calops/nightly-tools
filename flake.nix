@@ -19,10 +19,7 @@
         "x86_64-darwin"
       ];
       perSystem =
-        {
-          config,
-          ...
-        }:
+        { config, ... }:
         {
           imports = [ ./packages ];
           overlayAttrs = config.packages;

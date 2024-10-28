@@ -1,5 +1,15 @@
-{ pkgs, ... }:
 {
+  pkgs,
+  lib,
+  config,
+  ...
+}:
+{
+  packages.all = pkgs.symlinkJoin {
+    name = "all";
+    paths = builtins.attrValues (lib.filterAttrs (name: _: name != "all") config.packages);
+  };
+
   packages.kitty-nightly = pkgs.kitty.overrideAttrs (oldAttrs: rec {
     name = "kitty-nightly";
     version = "nightly";
