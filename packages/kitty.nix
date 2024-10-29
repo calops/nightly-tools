@@ -1,23 +1,27 @@
-{ pkgs, ... }:
-let
-  rev = "8b7cd98a0eb482a5fa26daef90be7db5fd1be64d";
-in
+# Checks are failing right now so let's just disable them
+{
+  pkgs,
+  sources,
+  ...
+}:
 pkgs.kitty.overrideAttrs (oldAttrs: rec {
   name = "kitty-nightly";
-  version = "nightly-${rev}";
+  version = "nightly-${sources.kitty.rev}";
 
   src = pkgs.fetchFromGitHub {
-    inherit rev;
-    owner = "kovidgoyal";
-    repo = "kitty";
-    sha256 = "sha256-ze28vZJFjTTCZHoGoNvW9GZVY45EnOTPlTwR11Z5NYo=";
+    inherit (sources.kitty)
+      rev
+      owner
+      repo
+      sha256
+      ;
   };
 
   goModules =
     (pkgs.buildGo123Module {
       pname = "kitty-go-modules-nightly";
       inherit src version;
-      vendorHash = "sha256-d5jRhOm53HDGnsU5Lg5tVGU/9z8RGqORzS53hOyIKBk=";
+      vendorHash = sources.kitty.vendorHash;
       doCheck = false;
       doInstallCheck = false;
     }).goModules;

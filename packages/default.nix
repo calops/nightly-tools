@@ -2,10 +2,11 @@
   pkgs,
   lib,
   config,
+  sources,
   ...
 }:
 {
-  packages.kitty-nightly = pkgs.callPackage ./kitty.nix { };
+  packages.kitty = pkgs.callPackage ./kitty.nix { inherit sources; };
 
   packages.all = pkgs.symlinkJoin {
     name = "all";
