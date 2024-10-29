@@ -12,12 +12,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: cachix/install-nix-action@v27
+
       - uses: cachix/cachix-action@v15
         with:
           name: nightly-tools
           authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
+
       - uses: DeterminateSystems/magic-nix-cache-action@v7
-      - run: ./nix/update-sources.sh
+
+      - name: "Update sources"
+        run: ./nix/update-sources.sh
+
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Nightly update
+
+      - name: "Run if changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: echo "Changes!"

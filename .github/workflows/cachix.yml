@@ -2,6 +2,10 @@ name: "Build configurations"
 
 on:
   push:
+  workflow_run:
+    workflows: ["Update sources"]
+    types:
+      - completed
 
 jobs:
   build-linux:
