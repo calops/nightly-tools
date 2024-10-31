@@ -6,22 +6,15 @@
 }:
 pkgs.kitty.overrideAttrs (oldAttrs: rec {
   name = "kitty-nightly";
-  version = "nightly-${sources.kitty.rev}";
+  version = "nightly";
 
-  src = pkgs.fetchFromGitHub {
-    inherit (sources.kitty)
-      rev
-      owner
-      repo
-      sha256
-      ;
-  };
+  src = sources.kitty;
 
   goModules =
     (pkgs.buildGo123Module {
       pname = "kitty-go-modules-nightly";
       inherit src version;
-      vendorHash = sources.kitty.vendorHash;
+      vendorHash = "sha256-d5jRhOm53HDGnsU5Lg5tVGU/9z8RGqORzS53hOyIKBk=";
       doCheck = false;
       doInstallCheck = false;
     }).goModules;

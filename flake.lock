@@ -18,6 +18,38 @@
         "type": "github"
       }
     },
+    "kitty": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1730349458,
+        "narHash": "sha256-HgjTxlLptYquenkhbmxyx4mn/ooOPedynFZlbb6tnVw=",
+        "owner": "kovidgoyal",
+        "repo": "kitty",
+        "rev": "15b5a9cfbd2057c6a74ff5ae9374ebdb34c5fe32",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kovidgoyal",
+        "repo": "kitty",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1730200266,
+        "narHash": "sha256-l253w0XMT8nWHGXuXqyiIC/bMvh1VRszGXgdpQlfhvU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "807e9154dcb16384b1b765ebe9cd2bba2ac287fd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixpkgs-lib": {
       "locked": {
         "lastModified": 1727825735,
@@ -32,7 +64,9 @@
     },
     "root": {
       "inputs": {
-        "flake-parts": "flake-parts"
+        "flake-parts": "flake-parts",
+        "kitty": "kitty",
+        "nixpkgs": "nixpkgs"
       }
     }
   },

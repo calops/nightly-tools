@@ -2,43 +2,42 @@
   description = "Up to date and cached packages for nightly versions of some tools";
 
   inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
+
+    kitty = {
+      url = "github:kovidgoyal/kitty";
+      flake = false;
+    };
   };
 
   outputs =
     inputs@{ flake-parts, ... }:
-    flake-parts.lib.mkFlake
-      {
-        inputs = inputs // {
-          nixpkgs = (import ./nix/sources.nix).nixpkgs;
-        };
-      }
-      {
-        imports = [
-          inputs.flake-parts.flakeModules.easyOverlay
-        ];
+    flake-parts.lib.mkFlake { inherit inputs; } {
+      imports = [
+        inputs.flake-parts.flakeModules.easyOverlay
+      ];
 
-        systems = [
-          "x86_64-linux"
-          "aarch64-linux"
-          "aarch64-darwin"
-          "x86_64-darwin"
-        ];
+      systems = [
+        "x86_64-linux"
+        "aarch64-linux"
+        "aarch64-darwin"
+        "x86_64-darwin"
+      ];
 
-        perSystem =
-          { config, system, ... }:
-          {
-            _module.args = rec {
-              sources = import ./nix/sources.nix;
-              pkgs = (import sources.nixpkgs { inherit system; });
-            };
-
-            imports = [ ./packages ];
-            overlayAttrs = config.packages;
+      perSystem =
+        { config, ... }:
+        {
+          _module.args = {
+            sources = inputs;
           };
 
-        flake = {
-          # formatter = inputs.pkgs.nixfmt-rfc-style; FIXME
+          imports = [ ./packages ];
+          overlayAttrs = config.packages;
         };
+
+      flake = {
+        # formatter = inputs.pkgs.nixfmt-rfc-style; FIXME
       };
+    };
 }
