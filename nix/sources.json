@@ -10,7 +10,7 @@
         "type": "tarball",
         "url": "https://github.com/kovidgoyal/kitty/archive/bbd2df7e4d93c4fd1b3978b73431414f4e24d7f6.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
-        "vendorHash": "sha256-d5jRhOm53HDGnsU5Lg5tVGU/9z8RGqORzS53hOyIKBk="
+        "vendorHash": "sha256-8hsQH7OdsxeVG6pomuxdmTXNmQYBROoUUxoC10LeLFo="
     },
     "nixpkgs": {
         "branch": "nixos-unstable",
