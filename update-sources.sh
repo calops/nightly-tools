@@ -17,8 +17,7 @@ function post-update() {
 
 # Kitty vendorHash requires some manual intervention
 function get_kitty_vendor_hash() {
-	nix run nixpkgs#nix-prefetch -- --option extra-experimental-features flakes \
-		'{ sha256 }: (builtins.getFlake (toString ./.)).packages."${pkgs.system}".kitty.goModules.overrideAttrs (_: { vendorHash = sha256; })'
+	nix run nixpkgs#nix-prefetch -- --option extra-experimental-features flakes "$(cat ./kitty-prefetch.nix)"
 }
 
 function kitty-pre-update() {
