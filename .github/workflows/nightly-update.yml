@@ -21,7 +21,7 @@ jobs:
       - uses: DeterminateSystems/magic-nix-cache-action@v7
 
       - name: "Update sources"
-        run: ./nix/update-sources.sh
+        run: ./update-sources.sh
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
