@@ -17,7 +17,7 @@ function post-update() {
 
 # Kitty vendorHash requires some manual intervention
 function get_kitty_vendor_hash() {
-	nix run nixpkgs#nix-prefetch -- --option extra-experimental-features flakes "$(cat ./kitty-prefetch.nix)"
+	NIX_PATH="nixpkgs=flake nixpkgs /nix/var/nix/profiles/per-user/root/channels" nix run nixpkgs#nix-prefetch -- --option extra-experimental-features flakes "$(cat ./kitty-prefetch.nix)"
 }
 
 function kitty-pre-update() {
