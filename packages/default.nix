@@ -5,8 +5,18 @@
   sources,
   ...
 }:
+let
+  neovim = sources.neovim-nightly-overlay.packages."${pkgs.system}".neovim;
+in
 {
-  packages.kitty = pkgs.callPackage ./kitty.nix { inherit sources; };
+  packages = {
+    inherit neovim;
+    kitty = pkgs.callPackage ./kitty.nix { inherit sources; };
+    neovide = pkgs.callPackage ./neovide.nix {
+      inherit sources;
+      inherit neovim;
+    };
+  };
 
   packages.all = pkgs.symlinkJoin {
     name = "all";
