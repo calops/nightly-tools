@@ -5,10 +5,10 @@
         "homepage": "https://sw.kovidgoyal.net/kitty/",
         "owner": "kovidgoyal",
         "repo": "kitty",
-        "rev": "bbd2df7e4d93c4fd1b3978b73431414f4e24d7f6",
-        "sha256": "1aaspssp92wbqda5f75m6icqsx3ncd0a0ziqyym9vikimziwcm9z",
+        "rev": "2531c31d02930e992a2e0c429ccefc1cb8e52af8",
+        "sha256": "0qz9gs2l6fh31pj0w8m34v2r6wr97yqb4p294pnspv9bl6g3j4y7",
         "type": "tarball",
-        "url": "https://github.com/kovidgoyal/kitty/archive/bbd2df7e4d93c4fd1b3978b73431414f4e24d7f6.tar.gz",
+        "url": "https://github.com/kovidgoyal/kitty/archive/2531c31d02930e992a2e0c429ccefc1cb8e52af8.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
         "vendorHash": "sha256-d5jRhOm53HDGnsU5Lg5tVGU/9z8RGqORzS53hOyIKBk="
     },
