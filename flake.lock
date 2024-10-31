@@ -179,22 +179,6 @@
         "type": "github"
       }
     },
-    "neovide": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1729673642,
-        "narHash": "sha256-GD9Cocu/hpwwe9imx5pXAgL6Yv5TVQN327EAWzUWmbc=",
-        "owner": "neovide",
-        "repo": "neovide",
-        "rev": "92aa896dcee8bb13c4027eb457093e5d79cd53f5",
-        "type": "github"
-      },
-      "original": {
-        "owner": "neovide",
-        "repo": "neovide",
-        "type": "github"
-      }
-    },
     "neovim-nightly-overlay": {
       "inputs": {
         "flake-compat": "flake-compat",
@@ -282,7 +266,6 @@
       "inputs": {
         "flake-parts": "flake-parts",
         "kitty": "kitty",
-        "neovide": "neovide",
         "neovim-nightly-overlay": "neovim-nightly-overlay",
         "nixpkgs": "nixpkgs_2"
       }
