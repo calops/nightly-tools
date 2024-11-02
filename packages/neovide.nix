@@ -1,4 +1,4 @@
-# Checks are failing right now so let's just disable them
+# Not actually nightly, but compiled with nightly neovim
 {
   pkgs,
   neovim,

@@ -21,12 +21,12 @@ function get_kitty_vendor_hash() {
 }
 
 function kitty-pre-update() {
-	OLD_VENDOR_HASH=$(sed -n 's|.*vendorHash = "\(.*\)";.*|\1|p' packages/kitty.nix)
+	OLD_VENDOR_HASH=$(sed -n 's|.*vendorHash = "\(.*\)";.*|\1|p' ../packages/kitty.nix)
 }
 
 function kitty-post-update() {
 	NEW_VENDOR_HASH=$(get_kitty_vendor_hash)
-	sed -i "s|${OLD_VENDOR_HASH}|${NEW_VENDOR_HASH}|" packages/kitty.nix
+	sed -i "s|${OLD_VENDOR_HASH}|${NEW_VENDOR_HASH}|" ../packages/kitty.nix
 }
 
 pre-update
