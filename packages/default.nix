@@ -16,6 +16,7 @@ in
       inherit sources;
       inherit neovim;
     };
+    nixd = sources.nixd.packages."${pkgs.system}".nixd;
   };
 
   packages.all = pkgs.symlinkJoin {
