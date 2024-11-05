@@ -12,10 +12,7 @@ in
   packages = {
     inherit neovim;
     kitty = pkgs.callPackage ./kitty.nix { inherit sources; };
-    neovide = pkgs.callPackage ./neovide.nix {
-      inherit sources;
-      inherit neovim;
-    };
+    neovide = pkgs.callPackage ./neovide.nix { inherit neovim; };
     nixd = sources.nixd.packages."${pkgs.system}".nixd;
   };
 
