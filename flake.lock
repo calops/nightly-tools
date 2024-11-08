@@ -199,11 +199,11 @@
     "kitty": {
       "flake": false,
       "locked": {
-        "lastModified": 1730691608,
-        "narHash": "sha256-nXJW66v2okT52FzuPKZr6uHWDBEPo3lw3OCQFxwnChs=",
+        "lastModified": 1731030992,
+        "narHash": "sha256-8tUv491c7ILaux/DFatNwaLKLnslPPY7dLuC3ylearQ=",
         "owner": "kovidgoyal",
         "repo": "kitty",
-        "rev": "33ab1d9019b91e9ed4ddbb647cacca9ad3a5973c",
+        "rev": "0356f2857676aea0c2148f84ab6854cc3482d686",
         "type": "github"
       },
       "original": {
