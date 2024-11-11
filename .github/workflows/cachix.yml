@@ -5,7 +5,7 @@ on:
   workflow_run:
     workflows: ["Update sources"]
     types:
-      - completed
+      - success
 
 jobs:
   build:
