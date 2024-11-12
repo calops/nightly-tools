@@ -11,7 +11,8 @@ in
 {
   packages = {
     inherit neovim;
-    kitty = pkgs.callPackage ./kitty.nix { inherit sources; };
+    # FIXME: kitty build is broken for now
+    # kitty = pkgs.callPackage ./kitty.nix { inherit sources; };
     neovide = pkgs.callPackage ./neovide.nix { inherit neovim; };
     nixd = sources.nixd.packages."${pkgs.system}".nixd;
   };
