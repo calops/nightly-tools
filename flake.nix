@@ -28,7 +28,7 @@
       ];
 
       perSystem =
-        { config, ... }:
+        { config, pkgs, ... }:
         {
           _module.args = {
             sources = inputs;
@@ -36,10 +36,7 @@
 
           imports = [ ./packages ];
           overlayAttrs = config.packages;
+          formatter = pkgs.nixfmt-rfc-style;
         };
-
-      flake = {
-        # formatter = inputs.pkgs.nixfmt-rfc-style; FIXME
-      };
     };
 }
