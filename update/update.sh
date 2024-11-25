@@ -4,15 +4,18 @@ set -e
 set -x
 
 function pre-update() {
+	echo running pre-update hooks...
 	# FIXME: reactivate once kitty is building again
 	# kitty-pre-update
 }
 
 function update() {
+	echo running update...
 	nix flake update
 }
 
 function post-update() {
+	echo running post-update hooks...
 	# FIXME: reactivate once kitty is building again
 	# kitty-post-update
 }
