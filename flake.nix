@@ -28,10 +28,19 @@
       ];
 
       perSystem =
-        { config, pkgs, ... }:
+        {
+          config,
+          system,
+          pkgs,
+          ...
+        }:
         {
           _module.args = {
             sources = inputs;
+            pkgs = import inputs.nixpkgs {
+              inherit system;
+              config.allowUnfree = true;
+            };
           };
 
           imports = [ ./packages ];
