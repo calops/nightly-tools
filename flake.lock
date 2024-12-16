@@ -282,6 +282,22 @@
         "url": "https://git.lix.systems/lix-project/lix/archive/main.tar.gz"
       }
     },
+    "neovim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1734351849,
+        "narHash": "sha256-fRNSqRIwg/J46FA27cunOXgzBRZ7mfGDCtpdNI0MTtc=",
+        "owner": "neovim",
+        "repo": "neovim",
+        "rev": "798f9284793ad9693c68352f5d07dafb73fd281e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "neovim",
+        "repo": "neovim",
+        "type": "github"
+      }
+    },
     "neovim-nightly-overlay": {
       "inputs": {
         "flake-compat": "flake-compat",
@@ -426,6 +442,7 @@
         "flake-parts": "flake-parts",
         "kitty": "kitty",
         "lix": "lix",
+        "neovim": "neovim",
         "neovim-nightly-overlay": "neovim-nightly-overlay",
         "nixd": "nixd",
         "nixpkgs": "nixpkgs_3"

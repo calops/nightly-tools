@@ -5,15 +5,12 @@
   sources,
   ...
 }:
-let
-  neovim = sources.neovim-nightly-overlay.packages."${pkgs.system}".neovim;
-in
 {
   packages = {
-    inherit neovim;
     # FIXME: kitty build is broken for now
     # kitty = pkgs.callPackage ./kitty.nix { inherit sources; };
-    neovide = pkgs.callPackage ./neovide.nix { inherit neovim; };
+    neovim = pkgs.callPackage ./neovim.nix { inherit sources; };
+    neovide = pkgs.callPackage ./neovide.nix { inherit (config.packages) neovim; };
     nixd = sources.nixd.packages."${pkgs.system}".nixd;
     lix = sources.lix.packages."${pkgs.system}".default;
   };
