@@ -12,11 +12,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    neovim = {
-      url = "github:neovim/neovim";
-      flake = false;
-    };
-
     kitty = {
       url = "github:kovidgoyal/kitty";
       flake = false;
