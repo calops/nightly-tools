@@ -232,11 +232,11 @@
     "kitty": {
       "flake": false,
       "locked": {
-        "lastModified": 1733989272,
-        "narHash": "sha256-0vYa1ElH8wKftXtdYOGVY8efyO9/Cygdfy8Jsk9S6gY=",
+        "lastModified": 1734309096,
+        "narHash": "sha256-XURoUYo0Nejcfi49s9AlyoG5fpE0/mjMke2UWG8lUiA=",
         "owner": "kovidgoyal",
         "repo": "kitty",
-        "rev": "9d48fa91262e1df7280dbee91c6c0120d556feb0",
+        "rev": "d3f93cb0cb84b7b61c4a41f0dbfa2d816ba5908e",
         "type": "github"
       },
       "original": {
@@ -407,11 +407,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1733940404,
-        "narHash": "sha256-Pj39hSoUA86ZePPF/UXiYHHM7hMIkios8TYG29kQT4g=",
+        "lastModified": 1734119587,
+        "narHash": "sha256-AKU6qqskl0yf2+JdRdD0cfxX4b9x3KKV5RqA6wijmPM=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "5d67ea6b4b63378b9c13be21e2ec9d1afc921713",
+        "rev": "3566ab7246670a43abd2ffa913cc62dad9cdf7d5",
         "type": "github"
       },
       "original": {
