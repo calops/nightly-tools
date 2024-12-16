@@ -15,7 +15,6 @@ in
     # kitty = pkgs.callPackage ./kitty.nix { inherit sources; };
     neovide = pkgs.callPackage ./neovide.nix { inherit neovim; };
     nixd = sources.nixd.packages."${pkgs.system}".nixd;
-    steam-tui = pkgs.steam-tui;
     lix = sources.lix.packages."${pkgs.system}".default;
   };
 
