@@ -16,6 +16,16 @@
       url = "github:kovidgoyal/kitty";
       flake = false;
     };
+
+    niri = {
+      url = "github:sodiboo/niri-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    niri-fork = {
+      url = "github:calops/niri";
+      flake = false;
+    };
   };
 
   outputs =
