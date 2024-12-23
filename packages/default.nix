@@ -13,7 +13,7 @@ let
       lix = sources.lix.packages."${pkgs.system}".default;
     }
     // (lib.optionalAttrs pkgs.stdenv.isLinux {
-      niri = pkgs.callPackage ./niri.nix { inherit (sources) niri niri-fork; };
+      niri = pkgs.callPackage ./niri.nix { inherit (sources) niri; };
     });
 
   all = pkgs.symlinkJoin {
