@@ -25,7 +25,7 @@ jobs:
         with:
           name: nightly-tools
           authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
-          extraPullNames: "nix-community, niri, nightly-tools"
+          extraPullNames: "nix-community, niri"
 
       - uses: DeterminateSystems/magic-nix-cache-action@v7
 
