@@ -17,8 +17,15 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    cadquery.url = "github:vinszent/cq-flake";
+
     niri-fork = {
       url = "github:calops/niri";
+      flake = false;
+    };
+
+    neovide-src = {
+      url = "github:neovide/neovide";
       flake = false;
     };
   };
