@@ -11,11 +11,11 @@ let
       neovide = pkgs.callPackage ./neovide.nix { inherit neovim; };
       nixd = sources.nixd.packages."${pkgs.system}".nixd;
       lix = sources.lix.packages."${pkgs.system}".default;
-      cadquery = sources.cadquery.packages."${pkgs.system}".cadquery;
-      cq-editor = sources.cadquery.packages."${pkgs.system}".cq-editor;
     }
     // (lib.optionalAttrs pkgs.stdenv.isLinux {
       niri = pkgs.callPackage ./niri.nix { inherit (sources) niri; };
+      cadquery = sources.cadquery.packages."${pkgs.system}".cadquery;
+      cq-editor = sources.cadquery.packages."${pkgs.system}".cq-editor;
     });
 
   all = pkgs.symlinkJoin {
