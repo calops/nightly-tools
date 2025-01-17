@@ -12,12 +12,9 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    niri-src.url = "github:YaLTeR/niri/s";
-
     niri = {
       url = "github:sodiboo/niri-flake/";
       inputs.nixpkgs.follows = "nixpkgs";
-      inputs.niri-unstable.follows = "niri-src";
     };
 
     cadquery.url = "github:vinszent/cq-flake";
