@@ -12,6 +12,7 @@ let
       nixd = sources.nixd.packages."${pkgs.system}".nixd;
       nh = sources.nh.packages."${pkgs.system}".default;
       lix = pkgs.callPackage ./lix.nix { inherit (sources) lix; };
+      devenv = sources.devenv.packages."${pkgs.system}".devenv;
     }
     // (lib.optionalAttrs pkgs.stdenv.isLinux {
       niri = pkgs.callPackage ./niri.nix { inherit (sources) niri; };
