@@ -27,6 +27,4 @@ jobs:
           authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
           extraPullNames: "nix-community, niri, devenv"
 
-      - uses: DeterminateSystems/magic-nix-cache-action@v7
-
       - run: nix build .#all
