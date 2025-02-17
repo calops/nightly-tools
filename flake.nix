@@ -35,7 +35,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    cadquery.url = "github:vinszent/cq-flake";
+    cadquery = {
+      url = "github:vinszent/cq-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     niri-fork = {
       url = "github:calops/niri";
