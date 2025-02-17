@@ -10,8 +10,8 @@ let
       neovim = sources.neovim-nightly-overlay.packages."${pkgs.system}".neovim;
       neovide = pkgs.callPackage ./neovide.nix { inherit neovim; };
       nixd = sources.nixd.packages."${pkgs.system}".nixd;
-      lix = sources.lix.packages."${pkgs.system}".default;
       nh = sources.nh.packages."${pkgs.system}".default;
+      lix = pkgs.callpackage ./lix.nix { inherit (sources) lix; };
     }
     // (lib.optionalAttrs pkgs.stdenv.isLinux {
       niri = pkgs.callPackage ./niri.nix { inherit (sources) niri; };
