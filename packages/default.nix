@@ -16,8 +16,6 @@ let
     }
     // (lib.optionalAttrs pkgs.stdenv.isLinux {
       niri = pkgs.callPackage ./niri.nix { inherit (sources) niri; };
-      # cadquery = sources.cadquery.packages."${pkgs.system}".cadquery;
-      # cq-editor = sources.cadquery.packages."${pkgs.system}".cq-editor;
     });
 
   all = pkgs.symlinkJoin {
