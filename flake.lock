@@ -494,22 +494,6 @@
         "url": "https://git.lix.systems/lix-project/lix/archive/main.tar.gz"
       }
     },
-    "neovide-src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1741888601,
-        "narHash": "sha256-w2E3bc0H+VvC3PVp3ldUUo2UcBEOfFFFH82SGU4B+fs=",
-        "owner": "neovide",
-        "repo": "neovide",
-        "rev": "450de3bb3a5ec19592578e53ee556e336632f931",
-        "type": "github"
-      },
-      "original": {
-        "owner": "neovide",
-        "repo": "neovide",
-        "type": "github"
-      }
-    },
     "neovim-nightly-overlay": {
       "inputs": {
         "flake-compat": "flake-compat_2",
@@ -584,32 +568,16 @@
         "xwayland-satellite-unstable": "xwayland-satellite-unstable"
       },
       "locked": {
-        "lastModified": 1742208770,
-        "narHash": "sha256-OjQDZkrKKutDItxvA6RkZjOtF0+LcwnjtNAA/SB0YZY=",
+        "lastModified": 1742209866,
+        "narHash": "sha256-5ZY9ugt6mCIdIrpxkrTC1qwUVNpv/ckSSBvXzqkEbBQ=",
         "owner": "calops",
         "repo": "niri-flake",
-        "rev": "bb84158a02b52d03030eefb74b37e21b36f88bab",
+        "rev": "0bda3d00fe8c2d51066bfc6a366d82f5f97a4ec8",
         "type": "github"
       },
       "original": {
         "owner": "calops",
         "repo": "niri-flake",
-        "type": "github"
-      }
-    },
-    "niri-fork": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1735819155,
-        "narHash": "sha256-Bw7DztHewGAQHZDlxF6/9Mi+KCt1SKES/tP3VPfidQY=",
-        "owner": "calops",
-        "repo": "niri",
-        "rev": "4e33f4552226fbadb156ca16b483cda10d04b433",
-        "type": "github"
-      },
-      "original": {
-        "owner": "calops",
-        "repo": "niri",
         "type": "github"
       }
     },
@@ -864,11 +832,9 @@
         "devenv": "devenv",
         "flake-parts": "flake-parts_2",
         "lix": "lix",
-        "neovide-src": "neovide-src",
         "neovim-nightly-overlay": "neovim-nightly-overlay",
         "nh": "nh",
         "niri": "niri",
-        "niri-fork": "niri-fork",
         "nixd": "nixd",
         "nixpkgs": "nixpkgs_3"
       }
