@@ -39,16 +39,6 @@
       url = "github:vinszent/cq-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    niri-fork = {
-      url = "github:calops/niri";
-      flake = false;
-    };
-
-    neovide-src = {
-      url = "github:neovide/neovide";
-      flake = false;
-    };
   };
 
   outputs =
