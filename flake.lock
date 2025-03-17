@@ -568,11 +568,11 @@
         "xwayland-satellite-unstable": "xwayland-satellite-unstable"
       },
       "locked": {
-        "lastModified": 1742210526,
-        "narHash": "sha256-ocCiircFipIG+Ga7fiqzWN46luGbjUwgsfpR2WODBgU=",
+        "lastModified": 1742210730,
+        "narHash": "sha256-7NnCh1iyG6m9/bkaTYcYjz7UJzOo5XXU/IFUdWo5xRs=",
         "owner": "calops",
         "repo": "niri-flake",
-        "rev": "dd1d31c55001b8da7615f35457ea619bc7fd03d0",
+        "rev": "1ae4b38be0c716acf09234b53abc8f72a8deaa41",
         "type": "github"
       },
       "original": {
