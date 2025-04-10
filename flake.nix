@@ -34,6 +34,11 @@
       url = "github:cachix/devenv";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    openrgb-src = {
+      url = "gitlab:CalcProgrammer1/OpenRGB";
+      flake = false;
+    };
   };
 
   outputs =

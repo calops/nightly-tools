@@ -682,6 +682,22 @@
         "type": "github"
       }
     },
+    "openrgb": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1744204055,
+        "narHash": "sha256-36LOJpfQPIjo/XZ6gi86tge0Yb1wU35zQdIGfG37N/0=",
+        "owner": "CalcProgrammer1",
+        "repo": "OpenRGB",
+        "rev": "1f6be2648967f65ed2b95c6341895d0aa7c9b4ad",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "CalcProgrammer1",
+        "repo": "OpenRGB",
+        "type": "gitlab"
+      }
+    },
     "root": {
       "inputs": {
         "devenv": "devenv",
@@ -691,7 +707,8 @@
         "nh": "nh",
         "niri": "niri",
         "nixd": "nixd",
-        "nixpkgs": "nixpkgs_3"
+        "nixpkgs": "nixpkgs_3",
+        "openrgb": "openrgb"
       }
     },
     "systems": {
