@@ -1,4 +1,8 @@
-{ openrgb-with-all-plugins, src }:
+{
+  openrgb-with-all-plugins,
+  coreutils,
+  src,
+}:
 openrgb-with-all-plugins.overrideAttrs (super: {
   inherit src;
 
@@ -8,5 +12,6 @@ openrgb-with-all-plugins.overrideAttrs (super: {
   # remove obsolete chmod substitution
   postPatch = ''
     patchShebangs scripts/build-udev-rules.sh
+    substituteInPlace scripts/build-udev-rules.sh --replace-fail /usr/bin/env "${coreutils}/bin/env"
   '';
 })
