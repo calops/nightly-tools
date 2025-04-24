@@ -39,11 +39,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1745335881,
-        "narHash": "sha256-6zbQPpB0lSLvPw3UIwYAzgdQLF17ae5q9dXM/0SRN+k=",
+        "lastModified": 1745440334,
+        "narHash": "sha256-f4LEc3dg5kuKfAWuPRk7PAGw6RHvaFTfvqK7B8NevXI=",
         "owner": "cachix",
         "repo": "devenv",
-        "rev": "181af54d108a7df54f84268fd8d2409360920722",
+        "rev": "4e904c0c66b5cb81bee25cc6af266d77cdd8409b",
         "type": "github"
       },
       "original": {
@@ -428,11 +428,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1745304593,
-        "narHash": "sha256-Z5VrtbGZq0xIWfaMGN/GPCIhS+inEZzGEsmOwiIrqF8=",
+        "lastModified": 1745453573,
+        "narHash": "sha256-iXXeLARuytmyDvwiXIYuRG7Ck5j+Y6NPcGflQx1rcOY=",
         "owner": "nix-community",
         "repo": "neovim-nightly-overlay",
-        "rev": "c0e6801cb13856f4c0faa42cdbaabd69a546125f",
+        "rev": "3757bdb848652e3e8ceb88b74f1042ab1f99490e",
         "type": "github"
       },
       "original": {
@@ -444,11 +444,11 @@
     "neovim-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1745277483,
-        "narHash": "sha256-JkXicvojIflbSAJmisGyErixJFL1GXgdXryVPD54A0o=",
+        "lastModified": 1745451311,
+        "narHash": "sha256-mFRZNUq6xeKIBeMlv5K3AACbjRZsE5U8YIae5Qbve0o=",
         "owner": "neovim",
         "repo": "neovim",
-        "rev": "65170e8dad908b15d14b5d68be3ee1a26642ad8b",
+        "rev": "63689deb45737925cc0d5f9b09a6466b6e536bcc",
         "type": "github"
       },
       "original": {
@@ -464,11 +464,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1745350616,
-        "narHash": "sha256-pph3fWc7ikLiB6LoYnoEGxwd37v93/0AW3ee+ZA/HwM=",
+        "lastModified": 1745443154,
+        "narHash": "sha256-udE3iKTopiaRzNbIbGQuwAO5+MtRHgWJhP4kYETtaEg=",
         "owner": "viperML",
         "repo": "nh",
-        "rev": "3262f3ccc8ea26bc04b13ebc3b13409224d436dc",
+        "rev": "2e76c1e6296f8275b1ee992dd2bf618d73237316",
         "type": "github"
       },
       "original": {
@@ -522,11 +522,11 @@
     "niri-unstable": {
       "flake": false,
       "locked": {
-        "lastModified": 1745341249,
-        "narHash": "sha256-pe7JtnXziNMBUj0hOONksU2SAsne9SDMMFleGXqe0Mw=",
+        "lastModified": 1745436098,
+        "narHash": "sha256-LIlpeXwHFTaoFO09QHFqIICpUA36ff01PzhXz27dAN0=",
         "ref": "mаin",
-        "rev": "fd861975024921b660b9f41e1133388f44706356",
-        "revCount": 2032,
+        "rev": "0421d0b0dc699f45614fe692883d37c60d367a6b",
+        "revCount": 2036,
         "type": "git",
         "url": "https://github.com/YaLTeR/niri"
       },
@@ -686,11 +686,11 @@
     "openrgb-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1745325949,
-        "narHash": "sha256-3m//ZR7wNhxxVm7IU8Tfb9gkWoKaWbhOvjn5Ei6Ox4A=",
+        "lastModified": 1745413654,
+        "narHash": "sha256-jM0zHSe/r15bvU/TbL7X2MWRQ8cEzf94bsMoje9Z/eQ=",
         "owner": "CalcProgrammer1",
         "repo": "OpenRGB",
-        "rev": "dd034cbfa6e6222dd75b247c0c1f7d9c407a8599",
+        "rev": "90508f7f1bfdee44756ecc2d307a0fe3ae7a6912",
         "type": "gitlab"
       },
       "original": {
