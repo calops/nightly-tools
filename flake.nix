@@ -28,7 +28,6 @@
     niri = {
       url = "github:calops/niri-flake/";
       inputs.nixpkgs.follows = "nixpkgs";
-      inputs.niri-unstable.url = "git+https://github.com/YaLTeR/niri?ref=m%D0%B0in";
     };
 
     devenv = {
