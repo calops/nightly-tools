@@ -28,6 +28,11 @@
     niri = {
       url = "github:calops/niri-flake/";
       inputs.nixpkgs.follows = "nixpkgs";
+      inputs.niri-unstable.follows = "niri-src";
+    };
+
+    niri-src = {
+      url = "github:yalter/niri";
     };
 
     devenv = {
