@@ -6,6 +6,5 @@
 pkgs.neovide.overrideAttrs {
   inherit neovim;
   name = "neovide-nightly";
-  version = "nightly";
   doCheck = false;
 }
