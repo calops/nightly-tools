@@ -13,6 +13,7 @@ let
       nh = sources.nh.packages."${pkgs.system}".default;
       lix = pkgs.callPackage ./lix.nix { inherit (sources) lix; };
       devenv = sources.devenv.packages."${pkgs.system}".devenv;
+      anyrun = sources.anyrun.packages."${pkgs.system}".anyrun;
     }
     // (lib.optionalAttrs pkgs.stdenv.isLinux {
       niri = pkgs.callPackage ./niri.nix { inherit (sources) niri; };

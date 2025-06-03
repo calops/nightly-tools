@@ -49,6 +49,11 @@
       url = "git+https://git.outfoxxed.me/outfoxxed/quickshell";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    anyrun = {
+      url = "github:Kirottu/anyrun";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
