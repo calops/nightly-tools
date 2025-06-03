@@ -25,6 +25,6 @@ jobs:
         with:
           name: nightly-tools
           authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
-          extraPullNames: "nix-community, niri, devenv"
+          extraPullNames: "nix-community, niri, devenv, anyrun"
 
       - run: nix build .#all
