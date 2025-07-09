@@ -20,11 +20,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    lix = {
-      url = "git+https://git.lix.systems/lix-project/nixos-module";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     niri = {
       url = "github:calops/niri-flake/";
       inputs.nixpkgs.follows = "nixpkgs";

@@ -11,7 +11,6 @@ let
       neovide = pkgs.callPackage ./neovide.nix { inherit neovim; };
       nixd = sources.nixd.packages."${pkgs.system}".nixd;
       nh = sources.nh.packages."${pkgs.system}".default;
-      lix = pkgs.callPackage ./lix.nix { inherit (sources) lix; };
       devenv = sources.devenv.packages."${pkgs.system}".devenv;
     }
     // (lib.optionalAttrs pkgs.stdenv.isLinux {
