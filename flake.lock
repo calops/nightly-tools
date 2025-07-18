@@ -65,11 +65,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1752692978,
-        "narHash": "sha256-xDC+PGNAblxnITXa8dOcb7iPjH5pn3zrIfNvae9GeUA=",
+        "lastModified": 1752808751,
+        "narHash": "sha256-Cg4DxHCZiXiSlbwveJpyCFzWIblWi467I2/pmsAWiAw=",
         "owner": "cachix",
         "repo": "devenv",
-        "rev": "b2281100077d641cbf135e8680e973c0c2270bc4",
+        "rev": "80c46d55798502fed4ec271579b2f363cf009785",
         "type": "github"
       },
       "original": {
@@ -390,11 +390,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1752684829,
-        "narHash": "sha256-thWm3+ZDnnWK65bR6UmxZQMHpYqf65kfh0vEIr4+nLU=",
+        "lastModified": 1752753780,
+        "narHash": "sha256-EiCUyqaoTdXDMBFb30hBKB9Sx3eY9mrqhgGriIsKuIU=",
         "owner": "nix-community",
         "repo": "neovim-nightly-overlay",
-        "rev": "c4046ad801abcc7576f0cf71944410d3690ecc50",
+        "rev": "053ea16d7d94f21ee6ed0b70007cd4378c8e4825",
         "type": "github"
       },
       "original": {
@@ -406,11 +406,11 @@
     "neovim-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1752617716,
-        "narHash": "sha256-Qths6FmwFQVcE/ZtNuGMixa+5vlvYpXVkB0RoUa1pJk=",
+        "lastModified": 1752707870,
+        "narHash": "sha256-h/td8ApD44htLyMnue39Y882fs1VpV/oy21WiySmXDE=",
         "owner": "neovim",
         "repo": "neovim",
-        "rev": "9789a3b854d7f670dd231bdffe1bce0098509539",
+        "rev": "fcec1610e7ba501be812f636dabc7d9f4c8f436f",
         "type": "github"
       },
       "original": {
@@ -426,11 +426,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1752704144,
-        "narHash": "sha256-7AvEsRyctSfzkOIMapNrJyBuse4txnMLn1Ff0mbtdJk=",
+        "lastModified": 1752782792,
+        "narHash": "sha256-Xcn8JFdsJUEhgCWJTbjinneyBAmjG1egE+eOfMkJdZM=",
         "owner": "viperML",
         "repo": "nh",
-        "rev": "c3966441e2c042b47728593e355ff01f4ef3b29e",
+        "rev": "5fd29ff636272d32a5998333ec0eba508416356d",
         "type": "github"
       },
       "original": {
@@ -472,11 +472,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1752656275,
-        "narHash": "sha256-tTRMyGxqHF5IkYcnvHbwCgRBRUBhvRapxtuUfrN/8Ic=",
+        "lastModified": 1752782736,
+        "narHash": "sha256-4gvHMrsjUMtu1ieTT9+cf3F4DhiLj4fh4c5BxAVw0xA=",
         "owner": "yalter",
         "repo": "niri",
-        "rev": "7b065f8618f63b7cf761ebe05a2cebd556113a6c",
+        "rev": "9c09bc730f37d1d449cc756044ad275010907e4c",
         "type": "github"
       },
       "original": {
@@ -525,11 +525,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1752251701,
-        "narHash": "sha256-fkkkwB7jz+14ZdIHAYCCNypO9EZDCKpj7LEQZhV6QJs=",
+        "lastModified": 1752773918,
+        "narHash": "sha256-dOi/M6yNeuJlj88exI+7k154z+hAhFcuB8tZktiW7rg=",
         "owner": "cachix",
         "repo": "nix",
-        "rev": "54df04f09cb084b9e58529c0ae6f53f0e50f1a19",
+        "rev": "031c3cf42d2e9391eee373507d8c12e0f9606779",
         "type": "github"
       },
       "original": {
@@ -640,11 +640,11 @@
     "openrgb-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1752672708,
-        "narHash": "sha256-WKg85EGAxfcc6rV1A+gkRdKH69wuhv0/t+6X4Y0LKb0=",
+        "lastModified": 1752771428,
+        "narHash": "sha256-9q6g145csgtdGHJ4b7SEXqUcKVRm0sO6ojF4o45GfXc=",
         "owner": "CalcProgrammer1",
         "repo": "OpenRGB",
-        "rev": "fed03f88c8e6e4b07f214866dd76ff92ec415e34",
+        "rev": "d0bcf06e5fba02901c26db8fca8edbc48254629c",
         "type": "gitlab"
       },
       "original": {
@@ -660,11 +660,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1752722039,
-        "narHash": "sha256-tC1w8GhaftyjeruTTBdg0XjtfczZ5hYeM0YSC1s0f+w=",
+        "lastModified": 1752780466,
+        "narHash": "sha256-o3uaEPW7Q9IN+iGNbm3iIFzZd3eQje+HYNwnZdpxvW4=",
         "ref": "refs/heads/master",
-        "rev": "201c559dcdc1244515332a88b5145ead531787ed",
-        "revCount": 641,
+        "rev": "115d6717a85d1b2246f82479d1aacca181893014",
+        "revCount": 643,
         "type": "git",
         "url": "https://git.outfoxxed.me/outfoxxed/quickshell"
       },
