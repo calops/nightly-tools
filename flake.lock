@@ -637,22 +637,6 @@
         "type": "github"
       }
     },
-    "openrgb-src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1752993588,
-        "narHash": "sha256-XawTJ7aWWB6H2uAFgKUJ/uKf5dekROGIcoLjiEtnp0c=",
-        "owner": "CalcProgrammer1",
-        "repo": "OpenRGB",
-        "rev": "ac0fd4b3fcfe4374c891130ea6065be90b2b764a",
-        "type": "gitlab"
-      },
-      "original": {
-        "owner": "CalcProgrammer1",
-        "repo": "OpenRGB",
-        "type": "gitlab"
-      }
-    },
     "quickshell": {
       "inputs": {
         "nixpkgs": [
@@ -660,11 +644,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1752960378,
-        "narHash": "sha256-+OVLmsSFN8Q1DracUlzb++q8aUf//ZipslyRQUR9Il0=",
+        "lastModified": 1753090730,
+        "narHash": "sha256-QG14m53ZGp2Gk7xD2Q+Tf7RYCKfk/BYRaBtX3X4IKbc=",
         "ref": "refs/heads/master",
-        "rev": "fcffbbced889717e09115e22fd181341746bf6e6",
-        "revCount": 652,
+        "rev": "db77c71c216530159c2dcf5b269ebb4706b2e2dd",
+        "revCount": 653,
         "type": "git",
         "url": "https://git.outfoxxed.me/outfoxxed/quickshell"
       },
@@ -684,7 +668,6 @@
         "niri-src": "niri-src",
         "nixd": "nixd",
         "nixpkgs": "nixpkgs_2",
-        "openrgb-src": "openrgb-src",
         "quickshell": "quickshell"
       }
     },

@@ -15,7 +15,6 @@ let
     }
     // (lib.optionalAttrs pkgs.stdenv.isLinux {
       niri = pkgs.callPackage ./niri.nix { inherit (sources) niri; };
-      openrgb = pkgs.callPackage ./openrgb.nix { src = sources.openrgb-src; };
       quickshell = sources.quickshell.packages."${pkgs.system}".quickshell;
       anyrun = sources.anyrun.packages."${pkgs.system}".anyrun;
     });
