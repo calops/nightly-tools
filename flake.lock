@@ -9,11 +9,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1757761387,
-        "narHash": "sha256-eSB62Y9QboWMF1aX+KMHc+HkGOMcw4X6gFZu6mQXlgk=",
+        "lastModified": 1757840226,
+        "narHash": "sha256-Bxacqw2208XnOsOeDFLg0XqZ8b48jenepwS2OshA7D4=",
         "owner": "Kirottu",
         "repo": "anyrun",
-        "rev": "591a1a4b899fc87481a018400366091673e70f30",
+        "rev": "b21edf8db8bf914774c8beb29f2161f1acb0ea9b",
         "type": "github"
       },
       "original": {
@@ -65,11 +65,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1757570236,
-        "narHash": "sha256-Gy15+KtKc/MyT4L9Ad/2wkXQvDiMkhtKy9Tnn3+kPww=",
+        "lastModified": 1757852601,
+        "narHash": "sha256-be2fxf+sH2zB4W5hStXLlRk5qL2NtQ182XXvxjIatyM=",
         "owner": "cachix",
         "repo": "devenv",
-        "rev": "c57bded76fa6a885ab1dee2c75216cc23d58b311",
+        "rev": "8190bcacd6077785bc35b03fb281cc410f74d629",
         "type": "github"
       },
       "original": {
@@ -390,11 +390,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1757808376,
-        "narHash": "sha256-bBlkNzJkt8OiaMcoRNlZM1dViUcXViuaqwpqxK+xK+E=",
+        "lastModified": 1757894719,
+        "narHash": "sha256-sG0DIub/4dB4HK8CahQYm6rTcxT8LHS6QmQNwThIN6M=",
         "owner": "nix-community",
         "repo": "neovim-nightly-overlay",
-        "rev": "7ef746f86fb9e35edc54809601f58a3b4b0b2c81",
+        "rev": "2376288a3cf701a272d4b083d2e39a44d087f9e2",
         "type": "github"
       },
       "original": {
@@ -406,11 +406,11 @@
     "neovim-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1757806386,
-        "narHash": "sha256-32vMFpPcSLk8llBvUN+8UpEdQFByR9mivEgK7CC+PUo=",
+        "lastModified": 1757891857,
+        "narHash": "sha256-GWKvDTB+03uQGx1qzuBQCewPgZiD8HWX2rovynsBbt8=",
         "owner": "neovim",
         "repo": "neovim",
-        "rev": "68f40386ed8cf813a7ae8443628b950e7707dc3e",
+        "rev": "7b8b9d270f6ede43661f54573d1f4f0ae49d4ff1",
         "type": "github"
       },
       "original": {
@@ -426,11 +426,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1757656889,
-        "narHash": "sha256-WtmW6PeMEemuUSMEw7fnmsqRkFXkYALe5N2HaeV3hLg=",
+        "lastModified": 1757846222,
+        "narHash": "sha256-papocgox6HOM+BJrWmWZuRnuDXi625diuC3sajCXd9A=",
         "owner": "viperML",
         "repo": "nh",
-        "rev": "a8182189f854597652e2acfe5363876241af3511",
+        "rev": "8bf323483166797a204579a43ed8810113eb128c",
         "type": "github"
       },
       "original": {
@@ -472,11 +472,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1757656821,
-        "narHash": "sha256-MDaLusQZflxngGMU41g6cqabM7KE8I55UazzAZsjNN0=",
+        "lastModified": 1757832020,
+        "narHash": "sha256-SCdus7r4IS8l3jzF8mcMFMlDvACTdmDCcsPnGUEqll0=",
         "owner": "yalter",
         "repo": "niri",
-        "rev": "b7909dbf61c7c1511b9a51ef46e1d503d5ba3d05",
+        "rev": "e6a8ad38479eb179dc7301755316f993e3e872ea",
         "type": "github"
       },
       "original": {
